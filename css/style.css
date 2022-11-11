@@ -1,0 +1,266 @@
+/* chivo-regular - latin */
+@font-face {
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/chivo-v17-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/chivo-v17-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
+}
+/* abel-regular - latin */
+@font-face {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/abel-v18-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/abel-v18-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/CenturyGothic.woff2") format("woff2"),
+    url("../fonts/CenturyGothic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: "chivo";
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main {
+  flex-grow: 1;
+}
+.container {
+  max-width: 100%;
+  width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+  justify-content: center;
+}
+.nav-pic {
+  height: 35px;
+  width: 281px;
+  margin-right: 136px;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 50px;
+}
+.nav-link {
+  text-decoration: none;
+  height: 14px;
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #aaaaaa;
+}
+.main-container {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+}
+.hero {
+  background-image: url("../imgs/section-fon-one.png");
+  height: 613px;
+  width: 920px;
+  margin: 0;
+  margin-top: 110px;
+  align-items: center;
+  justify-content: center;
+}
+.hero-tittle {
+  height: 52px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 264px;
+}
+.hero-info {
+  height: 28px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+}
+.two-section {
+  background-image: url("../imgs/section-two.png");
+  height: 528px;
+  width: 920px;
+  margin: 0;
+  align-items: center;
+  margin-top: 34px;
+  justify-content: center;
+}
+.two-tittle {
+  margin-top: 209px;
+  height: 58px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffffff;
+}
+.two-info {
+  height: 32px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+}
+.three-section {
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.three-wrap {
+  background-image: url("../imgs/section-fon-three.png");
+  height: 443px;
+  width: 443px;
+  margin-right: 35px;
+}
+.three-tittle {
+  height: 28px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 190px;
+}
+.three-info {
+  height: 20px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.three-wrapper {
+  background-image: url("../imgs/section-fon.three.png");
+  height: 443px;
+  width: 443px;
+}
+.section-tittle {
+  height: 28px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 190px;
+}
+.section-info {
+  height: 20px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.four-section {
+  display: flex;
+  margin-top: 34px;
+  margin-bottom: 130px;
+  justify-content: center;
+}
+.four-warp {
+  background-image: url("../imgs/section-fon-four.png");
+  height: 284px;
+  width: 284px;
+  margin-right: 32px;
+}
+.four-warpper {
+  background-image: url("../imgs/section-fon.four.png");
+  height: 284px;
+  width: 284px;
+  margin-right: 32px;
+}
+.four-warper {
+  background-image: url("../imgs/section.fon-four.png");
+  height: 284px;
+  width: 284px;
+}
+.four-tittle {
+  height: 18px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 120px;
+}
+.four-info {
+  height: 20px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.13px;
+  color: #ffffff;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.icons {
+}
+.footer-info {
+}
